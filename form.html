@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./form.js"></script>
+    <link rel="stylesheet" href="./form.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <section class="sec-style">
+        <div class="container">
+    <h1 style="text-align: center;">REGISTRATION FORM</h1>
+		<form name="myForm" action="" onsubmit="return validateForm()" method="post">
+
+			<pre>Name:     <input type="text" name="fname"></pre>
+			<pre>Age:      <input type="text" name="age"></pre>
+			<pre>Email:    <input type="text" name="email"></pre>
+            <pre>Password: <input type="password" name="password"></pre>
+			<pre>Website:  <input type="text" name="website"></pre>
+			<pre>Gender:   <input type="radio" value="male" name="gender" >Male <input type="radio" value="female" name="gender"> Female<input type="radio" value="Not Specified" name="gender" checked="checked"> Not Specified </pre><br>
+
+			<pre>Country:     <select type="text" name="country" id="country" ><br>
+				<option value="choose">--choose--</option><br>
+				<option value="india">India</option>
+				<option value="usa">USA</option>
+				<option value="uk">UK</option>
+				<option value="ng">Nigeria</option><br>
+				<br><br>
+			</select></pre>
+			
+			<label for="birthday">Birthday: </label>
+			<input type="date" id="birthday" name="birthday"><br><br>
+			comments: <textarea  name="textarea" placeholder="Optional" rows="4" cols="50"></textarea><br><br>
+            <input type="checkbox" id="myCheck" name="checkbox">I Agree Terms & Conditions
+			<br> 
+			<p id="data_sub"> <input type="submit" value="Submit" id="submit"> <input type="reset" value="reset" id="reset"></p>
+            <hr>
+            <hr>
+            <h1 style="text-align: center;">CHECK FILL DETAILS BELOW</h1>
+            <pre id = "details"> </pre>
+		</form>
+        </div>
+    </section>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

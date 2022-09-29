@@ -1,0 +1,55 @@
+.sec-style{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.sec-style #submit{
+    margin-top  : 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px ;
+    font-size: medium;
+    background-color: white;
+    color: #25A4AD;
+    border-color: #25A4AD;
+}
+.sec-style #submit:hover{
+background-color: #25A4AD;
+    color: white;
+    border-color: #25A4AD;
+}
+.sec-style #reset{
+    margin-top  : 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px ;
+    font-size: medium;
+    background-color: white;
+    color: #25A4AD;
+    border-color: #25A4AD;
+}
+.sec-style #reset:hover{
+background-color: #25A4AD;
+    color: white;
+    border-color: #25A4AD;
+}
+.sec-style h1{
+    font-size: xx-large;
+    padding: 10px;
+}
+.sec-style input{
+    padding: 5px;
+    font-size: large;
+}
+hr{
+
+    border-width: 5px;
+}
+.sec-style .patt {
+    text-align: center;
+    font-size: xx-large;
+}
+.sec-style .patt2 {
+    text-align:left;
+    font-size:xx-large;
+}
